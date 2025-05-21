@@ -4,6 +4,12 @@
 
 An Arduino-based smart trash bin system with automatic lid operation, fill-level monitoring, and IoT capabilities using ESP32.
 
+This project automates waste disposal and monitoring by combining sensor technology and IoT connectivity. The system detects user proximity to open and close the lid automatically using a servo motor, ensuring hands-free operation for improved hygiene. Dual ultrasonic sensors measure both external proximity and internal bin fill levels, providing accurate and real-time monitoring.
+
+The ESP32 microcontroller enables WiFi connectivity, allowing the system to send instant email notifications when the bin reaches a predefined fill threshold. An OLED display presents live status updates, including fill percentage and connection status, directly on the device.
+
+With modular, configurable code, the system can be adapted for various bin sizes and environments. It’s suitable for smart homes, offices, or public spaces seeking automated, contactless waste management and remote monitoring.
+
 ## Features
 - 👥 Proximity detection using HC-SR04 ultrasonic sensor
 - 🚪 Servo-controlled automatic lid opening/closing
